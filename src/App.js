@@ -33,7 +33,7 @@ export default function App() {
     }
 
     React.useEffect(() => {
-        fetch(`http://api.openweathermap.org/data/2.5/weather?q=bangalore&APPID=210e3811278841ca68b6fb26fcfa39b9`, {mode: 'cors'})
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=bangalore&APPID=210e3811278841ca68b6fb26fcfa39b9`, {mode: 'cors'})
         .then(function(response) {
           return response.json()
         })
@@ -41,7 +41,7 @@ export default function App() {
             setCurData(response)
         })
         
-        fetch(`http://api.openweathermap.org/data/2.5/forecast?q=bangalore&APPID=210e3811278841ca68b6fb26fcfa39b9`, {mode: 'cors'})
+        fetch(`https://api.openweathermap.org/data/2.5/forecast?q=bangalore&APPID=210e3811278841ca68b6fb26fcfa39b9`, {mode: 'cors'})
         .then(function(response1) {
           return response1.json()
         })
@@ -53,7 +53,7 @@ export default function App() {
     function handleSubmit(event) {
         event.preventDefault()
         
-        fetch(`http://api.openweathermap.org/data/2.5/weather?q=${formData.search}&APPID=210e3811278841ca68b6fb26fcfa39b9`, {mode: 'cors'})
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${formData.search}&APPID=210e3811278841ca68b6fb26fcfa39b9`, {mode: 'cors'})
         .then(function(response) {
           return response.json()
         })
@@ -61,7 +61,7 @@ export default function App() {
             setCurData(response)
         })
         
-        fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${formData.search}&APPID=210e3811278841ca68b6fb26fcfa39b9`, {mode: 'cors'})
+        fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${formData.search}&APPID=210e3811278841ca68b6fb26fcfa39b9`, {mode: 'cors'})
         .then(function(response1) {
           return response1.json()
         })
