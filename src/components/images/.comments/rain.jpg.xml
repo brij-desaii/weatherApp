@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>monsoon rainfall with clouds background</caption>
+  <note>monsoon rainfall with clouds background</note>
+  <place/>
+  <categories>
+    <category value="monsoon"/>
+    <category value="rain"/>
+    <category value="rainfall"/>
+    <category value="nature"/>
+    <category value="weather"/>
+    <category value="shower"/>
+    <category value="droplet"/>
+    <category value="wet"/>
+    <category value="drop"/>
+    <category value="water"/>
+    <category value="falling"/>
+    <category value="climate"/>
+    <category value="rainy"/>
+    <category value="storm"/>
+    <category value="raindrop"/>
+    <category value="liquid"/>
+    <category value="humidity"/>
+    <category value="background"/>
+    <category value="atmosphere"/>
+    <category value="season"/>
+    <category value="day"/>
+    <category value="cloud"/>
+    <category value="cloudy"/>
+  </categories>
+</comment>
