@@ -1,4 +1,4 @@
-# Weather.ly
+# Weatherly
 
 A weather app built using React
 
